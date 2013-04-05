@@ -11,12 +11,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
  
-/**
+/*
 *
 * Fragment que define el comportamiento del detalle de la lista una vez se selecciona un elemento
 * en otro Fragment
-*
-* @author carlos.munoz
 *
 */
 public class DetailFragment extends Fragment {

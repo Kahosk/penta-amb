@@ -9,8 +9,6 @@ import android.widget.TextView;
 *
 * Actividad que muestra la vista de detalle en modo portrait
 *
-* @author carlos.munoz
-*
 */
 public class DetailActivity extends Activity {
 @Override

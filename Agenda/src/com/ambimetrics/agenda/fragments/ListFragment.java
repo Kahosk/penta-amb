@@ -10,9 +10,8 @@ import android.widget.ListView;
  
 /**
 *
-* Fragment que se carga inicialmente con la vista principal, es decir, con el listado inicial
+* Fragment que se carga con la vista de la agenda
 *
-* @author carlos.munoz
 *
 */
 public class ListFragment extends android.app.ListFragment {
@@ -26,9 +25,9 @@ super.onCreate(savedInstanceState);
 //se sobreescribe este método como el que siempre "carga" la información a mostrar en el fragment
 public void onActivityCreated(Bundle savedInstanceState) {
 super.onActivityCreated(savedInstanceState);
-String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
-"Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
-"Linux", "OS/2" };
+String[] values = new String[] { "Carlos", "Juan Carlos", "Paco",
+"Leonard", "David", "Mar", "Estela", "Eric",
+"Enzo", "Aaron" };
 ArrayAdapter<String> adapter =
 new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, values);
  
