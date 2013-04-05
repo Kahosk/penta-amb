@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/listaFragment"
+        android:layout_width="150dip"
+        android:layout_height="456dp"
+        android:layout_above="@+id/button2"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        class="com.ambimetrics.agenda.fragments.ListFragment" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detalleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button1"
+        class="com.ambimetrics.agenda.fragments.DetailFragment" >
+
+    </fragment>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/listaFragment"
+        android:layout_below="@+id/detalleFragment"
+        android:layout_toRightOf="@+id/button1"
+        android:text="@string/button_anyadir" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/button_opciones" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/button_editar" />
+
+</RelativeLayout>
