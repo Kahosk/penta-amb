@@ -18,5 +18,15 @@
     <string name="title_activity_modificar_contacto">ModificarContactoActivity</string>
     <string name="title_activity_anyadir_contacto">AnyadirContactoActivity</string>
     <string name="title_activity_modificar_perfil">ModificarPerfilActivity</string>
+    <string name="edit_nombre">Nombre</string>
+    <string name="edit_apellidos">Apellidos</string>
+    <string name="edit_telefono">Teléfono</string>
+    <string name="edit_pais">País</string>
+    <string name="edit_provincia">Provincia</string>
+    <string name="edit_ciudad">Ciudad</string>
+    <string name="edit_email">e-Mail</string>
+    <string name="button_guardar">Guardar</string>
+    <string name="button_eliminar">Eliminar</string>
+    <string name="edit_password">Password</string>
 
 </resources>
