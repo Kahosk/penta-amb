@@ -1,8 +1,10 @@
 package com.ambimetrics.agenda;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
  
 /**
@@ -30,5 +32,14 @@ String s = extras.getString("value");
 TextView view = (TextView) findViewById(R.id.textoDetalle);
 view.setText(s);
 }
+
+}
+
+
+public void editarContacto(View view) {
+    // Do something in response to button
+	Intent intent = new Intent(this, ModificarContactoActivity.class);
+	startActivity(intent);
+
 }
 }

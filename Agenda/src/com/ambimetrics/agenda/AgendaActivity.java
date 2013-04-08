@@ -2,7 +2,9 @@ package com.ambimetrics.agenda;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class AgendaActivity extends Activity {
 
@@ -18,5 +20,12 @@ public class AgendaActivity extends Activity {
 		getMenuInflater().inflate(R.menu.agenda, menu);
 		return true;
 	}
+	
+	public void editarContacto(View view) {
+	    // Do something in response to button
+		Intent intent = new Intent(this, ModificarContactoActivity.class);
+		startActivity(intent);
 
+	}
+	
 }
