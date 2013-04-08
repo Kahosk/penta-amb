@@ -30,7 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/listaFragment"
         android:layout_toRightOf="@+id/button1"
-        android:text="@string/button_anyadir" />
+        android:text="@string/button_anyadir"
+        android:onClick="anyadirContacto" />
 
     <Button
         android:id="@+id/button1"
@@ -38,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:text="@string/button_opciones" />
+        android:text="@string/button_opciones"
+        android:onClick="editarPerfil" />
 
 </RelativeLayout>

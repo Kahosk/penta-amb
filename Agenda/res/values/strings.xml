@@ -16,5 +16,7 @@
     <string name="button_anyadir">+</string>
     <string name="button_editar">Editar</string>
     <string name="title_activity_modificar_contacto">ModificarContactoActivity</string>
+    <string name="title_activity_anyadir_contacto">AnyadirContactoActivity</string>
+    <string name="title_activity_modificar_perfil">ModificarPerfilActivity</string>
 
 </resources>

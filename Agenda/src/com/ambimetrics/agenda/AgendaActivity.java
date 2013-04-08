@@ -27,5 +27,17 @@ public class AgendaActivity extends Activity {
 		startActivity(intent);
 
 	}
+	public void anyadirContacto(View view) {
+	    // Do something in response to button
+		Intent intent = new Intent(this, AnyadirContactoActivity.class);
+		startActivity(intent);
+
+	}
+	public void editarPerfil(View view) {
+	    // Do something in response to button
+		Intent intent = new Intent(this, ModificarPerfilActivity.class);
+		startActivity(intent);
+
+	}
 	
 }

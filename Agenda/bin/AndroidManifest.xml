@@ -49,6 +49,14 @@
             android:name="com.ambimetrics.agenda.ModificarContactoActivity"
             android:label="@string/title_activity_modificar_contacto" >
         </activity>
+        <activity
+            android:name="com.ambimetrics.agenda.AnyadirContactoActivity"
+            android:label="@string/title_activity_anyadir_contacto" >
+        </activity>
+        <activity
+            android:name="com.ambimetrics.agenda.ModificarPerfilActivity"
+            android:label="@string/title_activity_modificar_perfil" >
+        </activity>
     </application>
 
 </manifest>

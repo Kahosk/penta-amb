@@ -4,13 +4,6 @@
 	android:layout_height="match_parent"
 	android:orientation="horizontal" >
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:text="@string/button_opciones" />
 
     <Button
         android:id="@+id/button2"
@@ -18,7 +11,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="@string/button_anyadir" />
+        android:text="@string/button_anyadir"
+        android:onClick="anyadirContacto" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/button_opciones"
+        android:onClick="editarPerfil" />
 
     <fragment
         android:id="@+id/listaFragment"
